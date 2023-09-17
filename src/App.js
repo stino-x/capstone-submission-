@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navigation from './Components/Navigation/Navigation';
-import Container from './Components/Landing/Container';
-import { UserContextProvider } from './Components/ContextProvider/UserContextProvider';
-import Country from './Components/countries/Country';
+import Navigation from './components/navigation/Navigation';
+import Container from './components/Landing/Container';
+import { UserContextProvider } from './components/ContextProvider/UserContextProvider';
+import Country from './components/countries/Country';
 
 function App() {
   return (
