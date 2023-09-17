@@ -1,0 +1,76 @@
+#cell {
+  min-height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom-container {
+  padding: 0;
+}
+
+#cell-grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 0;
+  border-radius: 0;
+  background-color: #f94e90;
+}
+
+#cell-grid > :nth-child(4n - 6),
+#cell-grid > :nth-child(4n - 5) {
+  background-color: #cd4277;
+}
+
+.links {
+  position: relative;
+  width: 100%;
+}
+
+.cell {
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.country-name {
+  text-align: right;
+  color: #fff;
+}
+
+.flag-container {
+  display: flex;
+  width: 75%;
+  position: relative;
+  align-items: flex-start;
+}
+
+.flag {
+  position: relative;
+  max-height: 80px;
+}
+
+.country-name span {
+  position: relative;
+}
+
+#selected {
+  display: flex;
+  min-width: 100%;
+  min-height: 40vh;
+}
+
+.map {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow {
+  position: relative;
+  color: #fff;
+}

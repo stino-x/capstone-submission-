@@ -1,0 +1,29 @@
+.top-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #f94e90;
+  align-items: center;
+}
+
+.top-container-img {
+  width: 50%;
+  height: 50%;
+}
+
+.top-container-title {
+  font-weight: 700;
+  font-size: 32px;
+  width: 50%;
+  color: #fff;
+  padding: 32px;
+}
+
+.page-divider {
+  background-color: #cd4277;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: bold;
+}
